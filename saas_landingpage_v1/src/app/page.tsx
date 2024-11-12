@@ -48,24 +48,31 @@ const HomePage: React.FC = () => {
       </main>
 
       {/* Next Section with White Background */}
-      <section className="bg-white py-20">
-        <div className="max-w-screen-xl mx-auto px-4">
-          <div className="flex items-center justify-center space-x-10">
-            {/* Left Content */}
-            <div className="flex flex-col items-start text-left max-w-md">
-              <h1 className="text-5xl font-bold mb-4"> <span className="text-black">Project Management</span>            </h1>
-              <p className="text-lg mb-8 text-black">
-                Images, videos, PDFs, and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.
-              </p>
-              <button className="px-6 py-3 bg-[rgba(189,223,255,1)] text-white font-semibold rounded hover:bg-[rgba(189,223,255,0.8)]">
-                Get Started →
-              </button>
-            </div>
+      <section className="bg-white w-[1920px] h-[1588px] pt-[140px] pr-[220px] pb-[140px] pl-[220px] flex gap-[100px]">
 
-            {/* Right Content (Colored Square Box) */}
-            <div className="w-98 h-80 bg-blue-500"></div>
+        <div className="max-w-screen-xl mx-auto px-4 w-[1480px] h-[547px] flex gap-[60px]">
+          <div className="flex items-center justify-center space-x-10 w-[672px] h-[411px] flex gap-[60px]">
+            {/* Left Content */}
+            <div className="flex flex-col items-start text-left max-w-md w-[672px] h-[288px] flex gap-[24px]">
+            <div className="mb-4 w-[672px]">
+              <h1 className="h-[174px] text-[72px] font-[700] leading-[87.14px] tracking-[-2%] text-black">
+                Project Management
+              </h1>
+              <p className="h-[90px] text-[18px] font-[400] leading-[30px] tracking-[-2%] mb-8 text-black">
+          Images, videos, PDFs, and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.
+        </p>
+            </div>
+              <button className="flex items-center w-[201px] h-[63px] bg-[#4F9CF9] text-white font-semibold rounded-[6px] px-[40px] py-[20px] hover:bg-[rgba(189,223,255,0.8)] gap-[10px]">
+              <span className="inline-block text-[18px] font-[500] leading-[23px] tracking-[-2%] w-[97px] h-[23px] bg-transparent">
+                  Get Started
+                </span>
+              <span >→</span>
+            </button>
+            </div>              
           </div>
+          <div className="w-[748px] h-[547px] bg-[#C4DEFD]"></div> 
         </div>
+            
       </section >
 
 

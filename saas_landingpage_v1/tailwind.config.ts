@@ -17,6 +17,9 @@ module.exports = {
         brightYellow: "#FFC107",
         softPink: "#FF4081",
       },
+      width: {
+        '128': '35rem',  // Defines w-128 as 32rem (512px)
+      },
     },
   },
   plugins: [],

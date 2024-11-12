@@ -21,17 +21,25 @@ const HomePage: React.FC = () => {
       </header>
 
       {/* Main Content */}
-      <main className="flex flex-col items-center justify-center text-center py-20">
-        <h1 className="text-5xl font-bold mb-4">
-          Get More Done with <span className="text-white">Whitespace</span>
-        </h1>
-        <p className="text-lg max-w-md mb-8">
-          Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks.
-        </p>
-        <button className="px-6 py-3 bg-pink-500 text-white font-semibold rounded hover:bg-pink-600">
-          Try Whitespace free →
-        </button>
+      <main className="flex items-center justify-center py-20 space-x-10 overflow-x-auto">
+        {/* Left Content */}
+        <div className="flex flex-col items-start text-left max-w-md">
+          <h1 className="text-5xl font-bold mb-4">
+            Get More Done with <span className="text-white">Whitespace</span>
+          </h1>
+          <p className="text-lg mb-8">
+            Project management software that enables your teams to collaborate, plan, analyze and manage everyday tasks.
+          </p>
+          <button className="px-6 py-3 bg-pink-500 text-white font-semibold rounded hover:bg-pink-600">
+            Try Whitespace free →
+          </button>
+        </div>
+
+        {/* Colored Square Box */}
+        <div className="w-128 h-80 bg-blue-500"></div>
       </main>
+
+
     </div>
   );
 };

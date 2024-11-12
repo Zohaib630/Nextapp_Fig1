@@ -47,8 +47,30 @@ const HomePage: React.FC = () => {
         <div className="w-[824px] h-[549px] bg-[#C4DEFD] gap-x-[4px]"></div>
       </main>
 
+      {/* Next Section with White Background */}
+      <section className="bg-white py-20">
+        <div className="max-w-screen-xl mx-auto px-4">
+          <div className="flex items-center justify-center space-x-10">
+            {/* Left Content */}
+            <div className="flex flex-col items-start text-left max-w-md">
+              <h1 className="text-5xl font-bold mb-4"> <span className="text-black">Project Management</span>            </h1>
+              <p className="text-lg mb-8 text-black">
+                Images, videos, PDFs, and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.
+              </p>
+              <button className="px-6 py-3 bg-[rgba(189,223,255,1)] text-white font-semibold rounded hover:bg-[rgba(189,223,255,0.8)]">
+                Get Started →
+              </button>
+            </div>
 
-    </div>
+            {/* Right Content (Colored Square Box) */}
+            <div className="w-98 h-80 bg-blue-500"></div>
+          </div>
+        </div>
+      </section >
+
+
+    </div >
+
   );
 };
 

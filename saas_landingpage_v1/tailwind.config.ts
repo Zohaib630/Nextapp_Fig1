@@ -18,6 +18,7 @@ module.exports = {
         softPink: "#FF4081",
       },
       width: {
+        '98': '30rem',
         '128': '35rem',  // Defines w-128 as 32rem (512px)
       },
     },

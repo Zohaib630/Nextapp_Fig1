@@ -1,9 +1,3 @@
-// pages/index.js
-
 export default function Home() {
-  return (
-    <div>
-      <h1>to Next.js!</h1>
-    </div>
-  );
+    return <h1>Hello World</h1>;
 }

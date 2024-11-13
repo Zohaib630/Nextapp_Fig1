@@ -47,33 +47,31 @@ const HomePage: React.FC = () => {
         <div className="w-[824px] h-[549px] bg-[#C4DEFD] gap-x-[4px]"></div>
       </main>
 
-      {/* Next Section with White Background */}
-      <section className="bg-white w-[1920px] h-[1588px] pt-[140px] pr-[220px] pb-[140px] pl-[220px] flex gap-[100px]">
+      <section className="bg-white w-auto h-auto pt-[140px] pr-[220px] pb-[140px] pl-[220px] flex justify-between gap-[60px]">
 
-        <div className="max-w-screen-xl mx-auto px-4 w-[1480px] h-[547px] flex gap-[60px]">
-          <div className="flex items-center justify-center space-x-10 w-[672px] h-[411px] flex gap-[60px]">
-            {/* Left Content */}
-            <div className="flex flex-col items-start text-left max-w-md w-[672px] h-[288px] flex gap-[24px]">
-            <div className="mb-4 w-[672px]">
-              <h1 className="h-[174px] text-[72px] font-[700] leading-[87.14px] tracking-[-2%] text-black">
-                Project Management
-              </h1>
-              <p className="h-[90px] text-[18px] font-[400] leading-[30px] tracking-[-2%] mb-8 text-black">
-          Images, videos, PDFs, and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.
-        </p>
-            </div>
-              <button className="flex items-center w-[201px] h-[63px] bg-[#4F9CF9] text-white font-semibold rounded-[6px] px-[40px] py-[20px] hover:bg-[rgba(189,223,255,0.8)] gap-[10px]">
-              <span className="inline-block text-[18px] font-[500] leading-[23px] tracking-[-2%] w-[97px] h-[23px] bg-transparent">
-                  Get Started
-                </span>
-              <span >→</span>
-            </button>
-            </div>              
-          </div>
-          <div className="w-[748px] h-[547px] bg-[#C4DEFD]"></div> 
-        </div>
-            
-      </section >
+<div className="max-w-screen-xl mx-auto px-4 w-full h-auto flex gap-[60px]">
+  <div className="flex flex-col items-start text-left max-w-md w-[672px] h-auto gap-[24px]">
+    <div className="mb-4 w-full">
+      <h1 className="text-[72px] font-bold leading-[87.14px] tracking-[-2%] text-black">
+        Project Management
+      </h1>
+      <p className="text-[18px] font-normal leading-[30px] tracking-[-2%] mb-8 text-black">
+        Images, videos, PDFs, and audio files are supported. Create math expressions and diagrams directly from the app. Take photos with the mobile app and save them to a note.
+      </p>
+    </div>
+    <button className="flex items-center w-[201px] h-[63px] bg-[#4F9CF9] text-white font-semibold rounded-[6px] px-[40px] py-[20px] hover:bg-[rgba(189,223,255,0.8)] gap-[10px]">
+      <span className="text-[18px] font-medium leading-[23px] tracking-[-2%]">
+        Get Started
+      </span>
+      <span>→</span>
+    </button>
+  </div>
+
+  <div className="flex-grow bg-[#C4DEFD]"></div> {/* No fixed height, allow flexible growth */}
+</div>
+
+</section>
+
 
 
     </div >

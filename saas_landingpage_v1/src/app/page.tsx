@@ -124,17 +124,100 @@ const HomePage: React.FC = () => {
   </button>
 
 </div>
+</div>
+</div>
+</section>
 
+{/* 3rd Section */}
+<section className="bg-[#043873] w-[1921px] h-[759px] top-[2509px] left-[1px] pt-[140px] pr-[220px] pb-[140px] pl-[220px] flex gap-x-[98px]">
 
+{/* Content */}
+{/* heading div */}
+<div className=" w-[697px] h-[294px] flex gap-x-[60px] items-center ">
+
+{/* Textblock */}
+<div className=" w-[697px] h-[171px] flex flex-col gap-[24px]">
+
+<h1 className="w-[697px] h-[87px] text-[72px] font-inter font-bold leading-[87.14px] tracking[-0.02em] text-White">
+    Use as Extension
+  </h1>
+
+  <p className="w-[697px] h-[60px] text-[18px] font-Inter leading-[30px] tracking-[-0.02em] text-white">
+  Use the web clipper extension, available on Chrome and Firefox, to save web pages or take screenshots as notes.
+  </p>
+
+  <button className="w-[171px] h-[63px] rounded-[6px] py-[20px] px-[40px] flex items-center gap-[10px] bg-[#4F9CF9] hover:bg-[#3B8EDB]">
+    <p className="font-inter text-[18px] font-medium leading-[23px] tracking[-0.02em] text-left text-white">
+      Let's Go
+    </p>
+    <img
+      src="/Icon.svg" 
+      alt="Icon"
+      className="w-[14px] h-[14px] opacity-100" 
+    />
+  </button>
 
 </div>
 
-
 </div>
 
+<img
+      src="/Illustration.svg" 
+      alt="Icon"
+      className="w-[686px] h-[479px] flex gap-x-[4px]" 
+    />
+  
+</section>
+
+
+{/* 4th Section */}
+<section className="bg-white w-[1921px] h-[812.09px] top-[3268px] left-[1px] pt-[140px] pr-[220px] pb-[140px] pl-[220px] flex gap-x-[98px]">
+{/* Content1 */}
+
+<img
+      src="/Illustration.svg" 
+      alt="Icon"
+      className="w-[714px] h-[479px] flex gap-x-[4px]" 
+    />
+
+{/* Heading div    */}
+<div className=" w-[696px] h-[411px] flex gap-x-[60px] place-items-center">
+
+{/* Textblock */}
+<div className=" w-[669px] h-[288px] flex flex-col gap-[24px] justify-between ">
+
+<h1 className="w-[669px] h-[174px] text-[72px] font-inter font-bold leading-[87.14px] tracking[-0.02em] text-black">
+    Customise it to your needs
+  </h1>
+
+  <p className="w-[669px] h-[90px] text-[18px] font-Inter leading-[30px] tracking-[-0.02em] text-black">
+  Customise the app with plugins, custom themes and multiple text editors (Rich Text or Markdown). Or create your own scripts and plugins using the Extension API.
+  </p>
+
+  <button className="w-[171px] h-[63px] rounded-[8px] py-[20px] px-[40px] flex items-center gap-[10px] bg-[#4F9CF9] hover:bg-[#3B8EDB]">
+    <p className="font-inter text-[18px] font-medium leading-[23px] tracking[-0.02em] text-left text-white">
+    Let's Go
+    </p>
+    <img
+      src="/Icon.svg" 
+      alt="Icon"
+      className="w-[14px] h-[14px] opacity-100" 
+    />
+  </button>
+  </div>
+  </div>
 
 
 </section>
+
+
+
+
+
+
+
+
+
 
 
 

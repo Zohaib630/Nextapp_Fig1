@@ -50,7 +50,7 @@ const HomePage: React.FC = () => {
         <div className="w-[824px] h-[549px] bg-[#C4DEFD] "></div>
       </main>
 {/* second section */}
-<section className="bg-white w-[1920px] h-[1588px] pt-[140px] pr-[220px] pb-[140px] pl-[220px] flex  gap-[100px]">
+<section className="bg-white w-[1920px] h-[1588px] pt-[140px] pr-[220px] pb-[140px] pl-[220px] flex flex-col  gap-[100px]">
 
 
 {/* second section content1 */}
@@ -86,6 +86,53 @@ const HomePage: React.FC = () => {
 <img className="h-[547px] w-[748px]  bg-[#C4DEFD]" ></img> 
 
 </div>
+{/* second section content2 */}
+
+<div className= " w-[1480px] h-[661px] flex gap-[100px] ">
+
+{/* Work together Image container */}
+
+<img
+      src="/Work Together Image.svg" 
+      alt="Icon"
+      className="w-[710px] h-[661px]" 
+    />
+ {/* Heading div    */}
+<div className=" w-[670px] h-[294px] flex gap-x-[60px] place-items-end">
+
+{/* Textblock */}
+<div className=" w-[670px] h-[171px] flex flex-col gap-[24px] justify-between ">
+
+<h1 className="w-[670px] h-[87px] text-[72px] font-inter font-bold leading-[87.14px] tracking[-0.02em] text-black">
+    Work together
+  </h1>
+
+  <p className="w-[670px] h-[60px] text-[18px] font-Inter leading-[30px] tracking-[-0.02em] text-black">
+  With whitepace, share your notes with your colleagues and collaborate on them.
+  You can also publish a note to the internet and share the URL with others.
+  </p>
+
+  <button className="w-[201px] h-[63px] rounded-[6px] py-[20px] px-[40px] flex items-center gap-[10px] bg-[#4F9CF9] hover:bg-[#3B8EDB]">
+    <p className="font-inter text-[18px] font-medium leading-[23px] tracking[-0.02em] text-left text-white">
+      Try it now
+    </p>
+    <img
+      src="/Icon.svg" 
+      alt="Icon"
+      className="w-[14px] h-[14px] opacity-100" 
+    />
+  </button>
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
 
 </section>
 

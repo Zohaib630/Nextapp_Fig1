@@ -244,6 +244,39 @@ const HomePage: React.FC = () => {
 
 </section>
 
+{/* 6th Section */}
+<section className="bg-white w-[1922px] h-[538px] top-[4654px] pt-[140px] pr-[220px] pb-[140px] pl-[220px] flex flex-col justify-around items-center gap-[40px]">
+
+  <h1 className="w-full h-[87px] text-[72px] font-inter font-bold leading-[87.14px] tracking-[-0.02em] text-black text-center">
+    Our sponsors
+  </h1>
+
+  <div className="w-[1482px] h-[71px] flex justify-center gap-[100px]">
+    <img
+      src="/Apple.svg"
+      alt="Apple Icon"
+      className="w-[55.47px] h-[68px] opacity-100"
+    />
+        <img
+      src="/Microsoft.svg"
+      alt="Apple Icon"
+      className="w-[287px] h-[62px] opacity-100"
+    />
+            <img
+      src="/Slack.svg"
+      alt="Apple Icon"
+      className="w-[280px] h-[71px] opacity-100"
+    />
+            <img
+      src="/Google.svg"
+      alt="Apple Icon"
+      className="w-[211px] h-[69.81px] opacity-100"
+    />
+    {/* Add more images as needed */}
+  </div>
+
+</section>
+
 
 
 

@@ -278,11 +278,55 @@ const HomePage: React.FC = () => {
 </section>
 
 
+{/* 7th Section - Footer */}
+<section className="bg-[#043873] w-full h-[461px] pt-[60px] pb-[60px] flex flex-col justify-between items-center">
 
+  {/* Main Content */}
+  <div className="w-full max-w-[1480px] h-auto flex justify-between gap-[100px]">
 
+    {/* Logo and description */}
+    <div className="w-[295px] h-[169]">
+      <img
+        src="/Logo-description.svg"
+        alt="Whitespace Logo"
+        className="w-[295px] h-[169px] mb-[20px]" // Adjust the height as per the image
+      />
+    </div>
 
+    {/* Product Section */}
+    <div className="flex flex-col">
+      <h3 className="text-white text-[18px] font-bold mb-[15px]">Product</h3>
+      <p className="text-[#FFE492] text-[16px] mb-[10px]">Overview</p>
+      <p className="text-white text-[16px] mb-[10px]">Pricing</p>
+      <p className="text-white text-[16px]">Customer stories</p>
+    </div>
 
+    {/* Resources Section */}
+    <div className="flex flex-col">
+      <h3 className="text-white text-[18px] font-bold mb-[15px]">Resources</h3>
+      <p className="text-white text-[16px] mb-[10px]">Blog</p>
+      <p className="text-white text-[16px] mb-[10px]">Guides & tutorials</p>
+      <p className="text-white text-[16px]">Help center</p>
+    </div>
 
+    {/* Company Section */}
+    <div className="flex flex-col">
+      <h3 className="text-white text-[18px] font-bold mb-[15px]">Company</h3>
+      <p className="text-white text-[16px] mb-[10px]">About us</p>
+      <p className="text-white text-[16px] mb-[10px]">Careers</p>
+      <p className="text-white text-[16px]">Media kit</p>
+    </div>
+    
+  </div>
+
+  {/* Footer bottom text */}
+  <div className="w-full max-w-[1480px] text-center mt-[20px] border-t border-[#fff] pt-[20px]">
+    <p className="text-white text-[14px]">
+      ©2021 Whitespace LLC.
+    </p>
+  </div>
+
+</section>
 
 
     </div >

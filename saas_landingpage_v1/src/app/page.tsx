@@ -172,7 +172,7 @@ const HomePage: React.FC = () => {
 
 {/* 4th Section */}
 <section className="bg-white w-[1921px] h-[812.09px] top-[3268px] left-[1px] pt-[140px] pr-[220px] pb-[140px] pl-[220px] flex gap-x-[98px]">
-{/* Content1 */}
+{/* Content */}
 
 <img
       src="/Illustration.svg" 
@@ -211,7 +211,38 @@ const HomePage: React.FC = () => {
 </section>
 
 
+{/* 5th Section */}
+<section className="bg-[#043873] w-[1921px] h-[574px] pt-[140px] pr-[220px] pb-[140px] pl-[220px] flex justify-center items-center">
 
+  {/* Heading div */}
+  <div className="w-[1481px] h-[294px] flex flex-col gap-x-[60px] items-center">
+
+    {/* Textblock */}
+    <div className="w-[1064px] h-[171px] flex flex-col gap-[24px] items-center">
+
+      <h1 className="w-[1064px] h-[87px] text-[72px] font-inter font-bold leading-[87.14px] tracking-[-0.02em] text-white">
+        Your work, everywhere you are
+      </h1>
+
+      <p className="w-[1064px] h-[60px] text-[18px] font-Inter leading-[30px] tracking-[-0.02em] text-white">
+        Access your notes from your computer, phone or tablet by synchronising with various services, including whitepace, Dropbox and OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!
+      </p>
+
+      <button className="w-[195px] h-[63px] rounded-[8px] py-[20px] px-[40px] flex items-center gap-[10px] bg-[#4F9CF9] hover:bg-[#3B8EDB]">
+        <p className="font-inter text-[18px] font-medium leading-[23px] tracking-[-0.02em] text-left text-white">
+          Try Taskey
+        </p>
+        <img
+          src="/Icon.svg" 
+          alt="Icon"
+          className="w-[14px] h-[14px] opacity-100" 
+        />
+      </button>
+
+    </div>
+  </div>
+
+</section>
 
 
 

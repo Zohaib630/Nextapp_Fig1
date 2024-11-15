@@ -1,6 +1,6 @@
 // pages/index.tsx
 import React from "react";
-import Image from "next/image"; 
+
 
 const HomePage: React.FC = () => {
   return (
@@ -279,7 +279,7 @@ const HomePage: React.FC = () => {
 
 
 {/* 7th Section - Footer */}
-<section className="bg-[#043873] w-full h-[461px] pt-[60px] pb-[60px] flex flex-col justify-between items-center">
+<section className="bg-[#043873] w-[1920] h-[461px] pt-[60px] pb-[60px] flex flex-col justify-between items-center">
 
   {/* Main Content */}
   <div className="w-full max-w-[1480px] h-auto flex justify-between gap-[100px]">
